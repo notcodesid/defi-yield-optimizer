@@ -1,0 +1,39 @@
+@import "tailwindcss/preflight";
+@import "tailwindcss/utilities";
+
+/* Custom CSS Variables & Theme (from your design system) */
+:root {
+  --color-white: rgba(255, 255, 255, 1);
+  --color-black: rgba(0, 0, 0, 1);
+  --color-cream-50: rgba(252, 252, 249, 1);
+  --color-cream-100: rgba(255, 255, 253, 1);
+  --color-gray-200: rgba(245, 245, 245, 1);
+  --color-gray-300: rgba(167, 169, 169, 1);
+  --color-gray-400: rgba(119, 124, 124, 1);
+  --color-slate-500: rgba(98, 108, 113, 1);
+  --color-brown-600: rgba(94, 82, 64, 1);
+  --color-charcoal-700: rgba(31, 33, 33, 1);
+  --color-charcoal-800: rgba(38, 40, 40, 1);
+  --color-slate-900: rgba(19, 52, 59, 1);
+  --color-teal-500: rgba(33, 128, 141, 1);
+  --color-red-500: rgba(192, 21, 47, 1);
+  --color-orange-500: rgba(168, 75, 47, 1);
+  --color-background: var(--color-cream-50);
+  --color-surface: var(--color-cream-100);
+  --color-text: var(--color-slate-900);
+  --color-primary: var(--color-teal-500);
+  --color-error: var(--color-red-500);
+  --color-warning: var(--color-orange-500);
+  --color-btn-primary-text: var(--color-cream-50);
+  --radius-base: 8px;
+  --radius-lg: 12px;
+  --font-family-base: 'Inter', sans-serif;
+}
+
+body {
+  font-family: var(--font-family-base);
+  color: var(--color-text);
+  background: var(--color-background);
+}
+
+/* Add more custom styles as needed based on your CSS */
